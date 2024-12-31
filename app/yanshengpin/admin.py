@@ -8,9 +8,9 @@ from .models import Authorize
 from .models import ProductionCommission
 
 class MyAdminSite(AdminSite):
-    site_header = "IP公司管理"
+    site_header = "IP公司管理系统"
 
-admin_site = MyAdminSite(name="myadmin")
+admin_site = MyAdminSite()
 # Register your models here.
 
 admin_site.register(Author)
